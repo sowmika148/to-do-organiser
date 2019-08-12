@@ -13,23 +13,9 @@
   color: white;
 }
 
-
-.Task-scheduler-container {
-  padding: 10px;
-}
-
-.Button {
-  width: 100px;
-  height: 40px;
-  border-radius: 7px;
-  background-color: #282c34;
-  color: white;
-  font-size: 15px;
-  /* TODO: align button to right */
-}
-
-.Search-Box {
-  height: 30px;
-  border-radius: 7px;
-  width: 200px;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
