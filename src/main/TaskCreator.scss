@@ -1,0 +1,17 @@
+.Task-create-container {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 10px 20px;
+
+    input {
+        margin-left: 10px;
+    }
+
+    textarea {
+        width: 500px;
+        height: 50px;
+        margin-left: 10px;
+        resize: none;
+    }
+}

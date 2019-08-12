@@ -14,7 +14,7 @@ it('should render header component', function() {
   expect(wrapper.find(Header).exists()).toBe(true);
 });
 
-it('should render Calender component', function() {
+it('should render task scheduler component', function() {
   const wrapper = shallow(<App/>);
 
   expect(wrapper.find(TaskScheduler).exists()).toBe(true);

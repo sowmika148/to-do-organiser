@@ -1,10 +1,15 @@
 import React from "react";
+import TaskCreator from "./TaskCreator";
+import './TaskCreator.scss'
 
 function TaskScheduler() {
     return (
-        <div className='Task-scheduler-container'>
-            <input type="text" className="Search-Box"/>
-            <button className="Button">Add Task</button>
+        <div>
+            <div className='Task-scheduler-container'>
+                <input type="text" className="Search-Box"/>
+                <button className="Button">Add Task</button>
+            </div>
+            <TaskCreator/>
         </div>
     );
 }
